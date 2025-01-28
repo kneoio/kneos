@@ -1,0 +1,16 @@
+{
+  "name": "kneo-io",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "vue": "^3.2.0",
+    "pinia": "^2.0.0",
+    "naive-ui": "^2.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.0"
+  }
+}
