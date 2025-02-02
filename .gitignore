@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 /.env
 
-/ci_cd/.env.production
-/ci_cd/copy_script.sh
 
 /http/http-client.private.env.json
+/ci_cd/copy_kneos_deploy_script.ps1
+/ci_cd/
