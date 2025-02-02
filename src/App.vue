@@ -2,7 +2,10 @@
   <n-page>
     <n-layout>
       <n-layout-header>
-        <h1>Kneo.io</h1>
+        <n-space align="center">
+          <n-image width="40" height="40" src="/kneo.png" />
+          <h1>Kneo.io</h1>
+        </n-space>
       </n-layout-header>
       <n-layout-content>
         <n-card title="Reinventing Random Synergy">
@@ -16,6 +19,3 @@
     </n-layout>
   </n-page>
 </template>
-
-<script setup>
-</script>
