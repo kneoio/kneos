@@ -1,22 +1,21 @@
 <template>
-
-        <Home />
-
+  <Home />
 </template>
 
-<script setup>
-import Home from '@/components/Home.vue'
+<script>
+import Home from './components/Home.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Home
+  }
+}
 </script>
 
 <style>
-.header-content {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.logo {
-  width: 40px;
-  height: 40px;
+body {
+  margin: 0;
+  font-family: 'Goldman', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 </style>
